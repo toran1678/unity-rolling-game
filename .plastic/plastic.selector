@@ -1,4 +1,0 @@
-repository "rolling-game 2025-11-06_22-59-57/rolling-game@14568608851538@cloud"
-  path "/"
-    br "/main"
-    co "/main"

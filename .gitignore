@@ -123,3 +123,5 @@ cloudbuild-manifest.json
 # Unity Input System
 *.inputactions.bak
 
+# Plastic SCM (Unity Version Control)
+.plastic/
