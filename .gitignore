@@ -1,0 +1,125 @@
+# 이 .gitignore 파일은 Unity 프로젝트 루트 디렉토리에 위치해야 합니다
+#
+# 최신 버전: https://github.com/github/gitignore/blob/main/Unity.gitignore
+#
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# MemoryCaptures는 용량이 과도하게 커질 수 있습니다
+# 민감한 데이터를 포함할 수도 있습니다
+/[Mm]emoryCaptures/
+
+# 에셋 메타 데이터는 해당 에셋도 무시되는 경우에만 무시해야 합니다
+!/[Aa]ssets/**/*.meta
+
+# Asset Store 도구 플러그인을 무시하려면 이 줄의 주석을 해제하세요
+# /[Aa]ssets/AssetStoreTools*
+
+# 자동 생성된 Jetbrains Rider 플러그인
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Visual Studio 캐시 디렉토리
+.vs/
+
+# Gradle 캐시 디렉토리
+.gradle/
+
+# 자동 생성된 VS/MD/Consulo 솔루션 및 프로젝트 파일
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D가 생성한 메타 파일
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D 크래시 리포트에서 생성된 파일
+sysinfo.txt
+
+# 빌드 산출물
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics가 생성한 파일
+crashlytics-build.properties
+
+# 패킹된 Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# 임시 자동 생성 Android 에셋
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Visual Studio Code 캐시
+.vscode/
+
+# JetBrains Rider 캐시
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# 백업 파일
+*.bak
+*.swp
+*.swo
+*~
+
+# 잠금 파일
+*.lock
+*.lock.json
+
+# 로그 파일
+*.log
+
+# Unity Cloud Build
+cloudbuild-manifest.json
+
+# Unity Package Manager
+[Pp]ackages/packages-lock.json
+
+# Unity Analytics
+[Uu]ser[Ss]ettings/Analytics/
+
+# Unity Input System
+*.inputactions.bak
+
